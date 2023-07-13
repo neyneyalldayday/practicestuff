@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML, CSS, and Javascript Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <button class="HS" id="highS">View High Scores</button>
+        <ul class="scoreBoard"></ul>
+        <h2 id="countdown">Timer</h2>
+    </header>
+    <main id="quiz">
+        <div class="questions" id="ques"></div>
+        <div class="answers" id="ans"></div>
+        <div class="incorrect Hide"></div>
+        <div class="correct Hide"></div>
+        <button id="btn">GetResults</button>
+        <div id="results"></div>
+        <div class="EndContainer Hide">
+            <form>
+                <input type="text" id="input" placeholder="initials">
+                <button id="initials-btn">click</button>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </main>
+
+</body>
+
+</html>
